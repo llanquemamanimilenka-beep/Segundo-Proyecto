@@ -1,0 +1,66 @@
+header{
+    background: linear-gradient(
+        to left,
+        rgb(1, 47, 5),
+        rgb(140, 255, 0)
+    );
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+ ul li{
+    list-style: none;
+    display: flex;
+    margin: 50px;
+    color: rgb(7, 69, 65);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+ul li:hover{
+    color: rgb(255, 204, 0);
+    font-size: xx-large;
+    cursor: pointer;
+}
+footer{
+    background: linear-gradient(
+        to right,
+        rgb(238, 255, 0),
+        rgb(18, 219, 196)
+    );
+}
+.imagenfondo{
+    background-image: url(loto.jfif) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+.fondooscuro{
+    background:rgba(0,0,0,0.6);
+    padding: 40px;
+   width: 50%;
+   border-radius: 25px ;
+}
+h2{
+    color: rgba(255, 0, 111, 0.678);
+    text-align: center;
+    font-size: 32px;
+}
+.boton{
+    color: #0d4202;
+    background-color: rgb(127, 216, 38);
+    padding: 15px 40px;
+    font-size: medium;
+    border-radius: 30px;
+
+}
+.boton:hover{
+    color: bisque;
+    transform:scale(1.1);
+    cursor: pointer;
+    font-weight: bold;
+}
